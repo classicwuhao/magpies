@@ -1,0 +1,12 @@
+package lang.parser;
+
+import java.util.*;
+public final class ASTStruct extends ASTNode{
+	private String name;
+	
+	public ASTStruct(){}
+	public ASTStruct(String s){name=s;}
+	public void setName(String str){name=str;}
+	public void getName(){return name;}
+	
+}

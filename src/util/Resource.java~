@@ -1,0 +1,8 @@
+package util;
+import java.lang.Comparable;
+
+public interface Resource<R>{
+	
+	R getResource();
+	boolean isEmptyResource();
+}

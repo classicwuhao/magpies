@@ -1,0 +1,10 @@
+package lang.parser;
+
+/* 
+ * A general node for AST.
+ */
+public abstract class ASTNode{
+	public String name;
+	public ASTNode(){}
+	public ASTNode(String )
+}
